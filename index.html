@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Python Technical Documentation Page</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css"/>     
+  </head>
+  <body>
+    <nav id="navbar">
+        <header>Python Documentation</header>
+        <ul>
+          <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#Hello_World">Hello World</a></li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li><a class="nav-link" href="#Data_Types" >Data Types</a></li>
+        <li><a class="nav-link" href="#Function_Declaration">Function Declaration</a></li>
+        </ul>
+      </nav>
+    <main id="main-doc">      
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.</p>
+        <p>It is used for web development (server-side), software development,mathematics and system scripting.</p>
+        
+      </section>
+
+      <section class="main-section" id="Hello_World">
+        <header>Hello World</header>
+        <p>Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.</p>
+        <p>Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.</p>
+        <code>print("Hello World")</code>
+      </section>
+
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <p>Python has no command for declaring a variable.</p>
+        <code>x=5
+          y="jhon"
+        </code>
+        <p>If you want to specify the data type of a variable, this can be done with casting.</p>
+        <code>x = str(3)
+          y = int(3)
+          z = float(3)
+        </code>
+      </section>
+
+      <section class="main-section" id="Data_Types">
+        <header>Data Types</header>
+        <p>Variables can store data of different types, and different types can do different things.</p>
+        <p>Python has the following data types built-in by default, in these categories:</p>
+        <ul>
+          <li>Text Type:	str</li>
+          <li>Numeric Types:	int, float, complex</li>
+          <li>Sequence Types:	list, tuple, range</li>
+          <li>Boolean Type:	bool</li>
+          <li>None Type:	NoneType</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Function_Declaration">
+        <header>Function Declaration</header>
+        <p>A function is a block of code which only runs when it is called.</p>
+        <p>In Python a function is defined using the def keyword:</p>
+        <code>def my_function():
+          print("Hello from a function")
+        </code>
+        <p>To call a function, use the function name followed by parenthesis:</p>
+        <code>def my_function():
+  print("Hello from a function")
+
+my_function()</code>
+      </section>
+    </main>
+  </body>
+</html>
